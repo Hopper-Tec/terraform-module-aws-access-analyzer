@@ -49,8 +49,8 @@ Reusable Terraform module for AWS IAM Access Analyzer — manages analyzers at o
 
 ### Versions (`versions.tf`)
 
-- `required_version = ">= 1.10.0"`
-- AWS provider `>= 6.0.0`
+- `required_version = ">= 1.14.0"`
+- AWS provider `>= 6.0, < 7.0`
 
 ### Examples (`examples/`)
 

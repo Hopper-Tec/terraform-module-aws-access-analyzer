@@ -3,7 +3,7 @@ resource "aws_accessanalyzer_analyzer" "this" {
   type          = var.type
 
   dynamic "configuration" {
-    for_each = var.type == "ORGANIZATION_UNUSED_ACCESS" ? [1] : []
+    for_each = contains(["ORGANIZATION_UNUSED_ACCESS", "ACCOUNT_UNUSED_ACCESS"], var.type) ? [1] : []
     content {
       unused_access {
         unused_access_age = var.unused_access_age
