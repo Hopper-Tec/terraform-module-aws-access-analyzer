@@ -4,7 +4,7 @@ variable "analyzer_name" {
 }
 
 variable "type" {
-  description = "(Required) The type of analyzer. Valid values: ACCOUNT, ORGANIZATION, ACCOUNT_UNUSED_ACCESS, ORGANIZATION_UNUSED_ACCESS."
+  description = "(Optional) The type of analyzer. Valid values: ACCOUNT, ORGANIZATION, ACCOUNT_UNUSED_ACCESS, ORGANIZATION_UNUSED_ACCESS."
   type        = string
   default     = "ORGANIZATION"
 
