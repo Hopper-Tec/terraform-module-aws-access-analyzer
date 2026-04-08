@@ -19,7 +19,7 @@ Reusable Terraform module to manage AWS IAM Access Analyzer at organization or a
 
 - `.pre-commit-config.yaml` – Shared linting hooks
 - `modules/` – Terraform modules
-  - [Analyzer](./modules/analyzer/README.md)
+  - [Analyzer](https://github.com/Hopper-Tec/terraform-module-aws-access-analyzer/tree/main/modules/analyzer)
 
 ---
 
